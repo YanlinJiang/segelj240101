@@ -27,7 +27,7 @@ def outputImgDetail(uploadImg):
                      "file_size": uploadImg.size}
     st.write(image_details)
 
-st.header("""Multiple Modules Image Processing""")
+st.header("""Image Quality Assessment""")
 st.caption("-You can choose what function you like and processing image here.")
 
 
