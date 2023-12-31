@@ -34,7 +34,7 @@ if ex:
                 st.experimental_rerun()
         with col2:
             # 显示处理后的图片
-            st.image(enhanced_image, caption='processed image', channels="BGR", use_column_width=True)
+            st.image(enhanced_image, caption='Processed image', channels="BGR", use_column_width=True)
             # 创建下载按钮
             im_pil = Image.fromarray(cv2.cvtColor(enhanced_image, cv2.COLOR_BGR2RGB))
             buffered = io.BytesIO()
